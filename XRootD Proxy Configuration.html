@@ -4547,7 +4547,7 @@ bytes </i>[<b>k</b>|<b>m</b>|<b>g</b>]] [<b>minfrac</b> <i>frac</i>]  </span></p
 <p class="MsoNormal" style="margin-left:.5in"><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">
 Use caching proxy only if the file is cached. The onlyifcached option is activated with CGI parameter <i>cache-control=only-if-cached</i> or in the http protocol with <i>'only-if-cached'</i> cache control directive.
 The minsize parameter sets the minimum required number of downloaded bytes for the requested file. This value is ignored if the file size is smaller than minsize parameter. The default value of minsize parameter is 1Mb.
-Parameter minfrac sets the minimum required fraction of downloaded file. The default value of minfrac is 1. Both minsize and minfrac parameters must be fulfilled for the file to be considered cached.
+Parameter minfrac sets the minimum required fraction of downloaded file. The default value of minfrac is 1.0 (e.g. the file is completely cached). Both minsize and minfrac parameters must be fulfilled for the file to be considered cached.
 </span>
 
 <p>
